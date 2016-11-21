@@ -2,6 +2,12 @@
   display: none;
 }
 
+#main-nav {
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s, opacity 0.5s ease;
+}
+
 /* desktop navigation styles */
 .nav-section {
   list-style-type: none;
